@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AKSimpleColorPicker_Example' do
+  pod 'AKSimpleColorPicker', :path => '../'
+
+  target 'AKSimpleColorPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
