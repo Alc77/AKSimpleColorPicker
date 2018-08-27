@@ -1,0 +1,16 @@
+PODS:
+  - AKSimpleColorPicker (0.1.0)
+
+DEPENDENCIES:
+  - AKSimpleColorPicker (from `../`)
+
+EXTERNAL SOURCES:
+  AKSimpleColorPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AKSimpleColorPicker: 40fd385bc9ed4462c33b980769aef558359385fa
+
+PODFILE CHECKSUM: aaf46699c2dd2625d1bf82152916b858f576ee43
+
+COCOAPODS: 1.5.3

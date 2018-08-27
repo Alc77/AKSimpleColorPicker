@@ -1,0 +1,848 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1313D928C7026F212785E33867208890 /* AKRoughColorPickerShader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C24DE5C65DFC52596CDD9E5119D6443 /* AKRoughColorPickerShader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1CBF96B1DE0327BED3BF6C040F6A69E8 /* AKRoughColorPickerShader.fsh.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D400FA3F1C5CCFD02234EB7E0E8D56 /* AKRoughColorPickerShader.fsh.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F17F0E55746F7D5807BA64A2AC1FD6E /* AKPreciseColorPickerShader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D47A81AC8EB13A8810914A49235CCDF /* AKPreciseColorPickerShader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2339BE573411DBE30C4DDEA4077358F5 /* AKPreciseColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6930F8F534F409ACECAD510046B2626 /* AKPreciseColorViewController.m */; };
+		43C243B7005F5784C1E62FF8EDC32942 /* AKVertexShader.vsh in Sources */ = {isa = PBXBuildFile; fileRef = F243F60859EEFAAAA3314068231E9A8A /* AKVertexShader.vsh */; };
+		45578C147352F3557ED499301ADEF2C3 /* AKPreciseColorPickerShader.fsh.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E8B9BC5F8B4FB97971E310A724728A3 /* AKPreciseColorPickerShader.fsh.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		458E17F0ABD2513F5301CD42FAE44DF7 /* Pods-AKSimpleColorPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97026A8612CA64E1FB113CA3A949183E /* Pods-AKSimpleColorPicker_Tests-dummy.m */; };
+		4E579B92551FF9520C6F0302D81FBD0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BF560CA6C07ADD0ABB1F227A0A1979 /* Foundation.framework */; };
+		4F04653A6A21B508A771D08836280A22 /* AKPreciseColorPickerShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E56BE39685AC69FC481373486D16F /* AKPreciseColorPickerShader.m */; };
+		6330B2DB6D154E7A4005EB3F5ED354F5 /* AKColorPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C55C6F3DDD7FB16111E175D939A27B84 /* AKColorPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72A7A6364F48B038F5B58C0A7F93A9B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BF560CA6C07ADD0ABB1F227A0A1979 /* Foundation.framework */; };
+		7D988C8900CFD3DCA5AFA96D899C9355 /* AKRoughColorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F149351B43BA30E774606F5AFA6598A /* AKRoughColorViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		853441865FE8BB043F932492E322DE88 /* AKRoughColorPickerShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F16A45F8B3110C2E4771852413E13F /* AKRoughColorPickerShader.m */; };
+		8F4C3B8A7EDD7F53BEAA8C1B96A86C8B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554740CE379E5E03F7293F2B613F1F09 /* GLKit.framework */; };
+		8F64B34C37809DC968BE6C37F7B77495 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F75B566DEC1651054BEE28793F00969 /* UIKit.framework */; };
+		98462860768E107D385BF1F079B9897A /* Pods-AKSimpleColorPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C74E2572D5273BB3EACC6A762C259DB /* Pods-AKSimpleColorPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1800953C8B7EFD333FB41B8986B5C18 /* AKPreciseVertexShader.vsh.h in Headers */ = {isa = PBXBuildFile; fileRef = B68728C811AEA30738B834EFDCC85200 /* AKPreciseVertexShader.vsh.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B60144A250E5EB8D2C61BE7092D7B9CA /* AKPreciseColorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D92446F9C5936E7C370154402A737C /* AKPreciseColorViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC23A16413DEF6A7A573EE371B18C6D0 /* AKRoughColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F07DC97C5CB0DD884966C19D8C7D83 /* AKRoughColorViewController.m */; };
+		CAA7E7483B071977151392954DB19393 /* AKRoughVertexShader.vsh.h in Headers */ = {isa = PBXBuildFile; fileRef = BCFA94AF0C2EF6576B0E6EAC7329C2F0 /* AKRoughVertexShader.vsh.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CAC688C37D8D8261BBB5F2CBE90870A0 /* AKPreciseColorPickerShader.fsh in Sources */ = {isa = PBXBuildFile; fileRef = DAE75E0BEDA575F6CCE7CD5900E70E7C /* AKPreciseColorPickerShader.fsh */; };
+		CD69E32B3D4B94CAB0E8EF87292207CF /* Pods-AKSimpleColorPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0105BEC66D590F12FE3B75CC6510F6FD /* Pods-AKSimpleColorPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1046AB4579D1FCDCB94D2ED48E500 /* Pods-AKSimpleColorPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A39B3F821593E7797D73CF8212F404 /* Pods-AKSimpleColorPicker_Example-dummy.m */; };
+		D62E454AE5C9BF9790BD189D40768814 /* AKRoughColorPickerShader.fsh in Sources */ = {isa = PBXBuildFile; fileRef = B116D7848119DC04924060EC5D7D9B5F /* AKRoughColorPickerShader.fsh */; };
+		E8FD023BC3115AF0E2C33516543CE78F /* AKSimpleColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D07D6A990A2398387F1A3A55B74F7AFE /* AKSimpleColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECC483CBB98DC04079110CAC847CF6F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BF560CA6C07ADD0ABB1F227A0A1979 /* Foundation.framework */; };
+		ED7E6BBA4C9639BFB0F20671A5F18060 /* AKSimpleColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA05366C0F4B9FF3B02463C771CA6E52 /* AKSimpleColorPicker-dummy.m */; };
+		F1DE194D0B121196A4BE9DCC421F810F /* AKSimpleColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 785C7727FAE7A0024B5ED076092F8A6C /* AKSimpleColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F584121C5AF30CBE8A68C09AA1551777 /* AKColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683B065D034A59C1A87C5255AEE93DDA /* AKColorPickerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25F962B4D298C082325835AAEE2CF10B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 118658D9D28D3052FFB225377E1C825B;
+			remoteInfo = "Pods-AKSimpleColorPicker_Example";
+		};
+		60F0A0E3C55806FBE434E7F60AEF8B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FF485F124FF1FD3E2A98E61C455F362;
+			remoteInfo = AKSimpleColorPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F739440C4A6C1BC77A1D979527599E /* AKSimpleColorPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AKSimpleColorPicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0105BEC66D590F12FE3B75CC6510F6FD /* Pods-AKSimpleColorPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKSimpleColorPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		07D92446F9C5936E7C370154402A737C /* AKPreciseColorViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPreciseColorViewController.h; path = AKSimpleColorPicker/Classes/AKPreciseColorViewController.h; sourceTree = "<group>"; };
+		0F75B566DEC1651054BEE28793F00969 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1679F77B6FA243249D93CA8BD0576902 /* Pods-AKSimpleColorPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKSimpleColorPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		216C8141C1378C6BE3354B3196D0C2DD /* Pods-AKSimpleColorPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKSimpleColorPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2409883D4C79980CF79AC2B2BAC22655 /* Pods-AKSimpleColorPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKSimpleColorPicker_Example-resources.sh"; sourceTree = "<group>"; };
+		25F16A45F8B3110C2E4771852413E13F /* AKRoughColorPickerShader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKRoughColorPickerShader.m; path = AKSimpleColorPicker/Classes/AKRoughColorPickerShader.m; sourceTree = "<group>"; };
+		30BF560CA6C07ADD0ABB1F227A0A1979 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38C9707AE7BDEBBB3954B46E38FF4F6A /* Pods-AKSimpleColorPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKSimpleColorPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F402F38B4043D1050E17359046008B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		406253C27F31903AC69F9EF1AE43BF96 /* Pods-AKSimpleColorPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKSimpleColorPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4C74E2572D5273BB3EACC6A762C259DB /* Pods-AKSimpleColorPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKSimpleColorPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		4E1ADC523FC1E809E51D8858C3E034EF /* Pods-AKSimpleColorPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKSimpleColorPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F149351B43BA30E774606F5AFA6598A /* AKRoughColorViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKRoughColorViewController.h; path = AKSimpleColorPicker/Classes/AKRoughColorViewController.h; sourceTree = "<group>"; };
+		554740CE379E5E03F7293F2B613F1F09 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		5E0E3609249C44B0CC2EC49A21712EF1 /* AKSimpleColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AKSimpleColorPicker.modulemap; sourceTree = "<group>"; };
+		61F07DC97C5CB0DD884966C19D8C7D83 /* AKRoughColorViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKRoughColorViewController.m; path = AKSimpleColorPicker/Classes/AKRoughColorViewController.m; sourceTree = "<group>"; };
+		683B065D034A59C1A87C5255AEE93DDA /* AKColorPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKColorPickerViewController.m; path = AKSimpleColorPicker/Classes/AKColorPickerViewController.m; sourceTree = "<group>"; };
+		6E8B9BC5F8B4FB97971E310A724728A3 /* AKPreciseColorPickerShader.fsh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPreciseColorPickerShader.fsh.h; path = AKSimpleColorPicker/Classes/AKPreciseColorPickerShader.fsh.h; sourceTree = "<group>"; };
+		775E3650E2C68ABD7CC5FC7EDD34CB1B /* Pods-AKSimpleColorPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKSimpleColorPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		77C32D11CB9AA3ED803300F4505DF1EA /* AKSimpleColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKSimpleColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		785C7727FAE7A0024B5ED076092F8A6C /* AKSimpleColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKSimpleColorPicker.h; path = AKSimpleColorPicker/Classes/AKSimpleColorPicker.h; sourceTree = "<group>"; };
+		83DF0246FFB86F822D51E8912DC3F302 /* Pods-AKSimpleColorPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKSimpleColorPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		854B5BBD0F396DC663380862F47C03BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865E56BE39685AC69FC481373486D16F /* AKPreciseColorPickerShader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKPreciseColorPickerShader.m; path = AKSimpleColorPicker/Classes/AKPreciseColorPickerShader.m; sourceTree = "<group>"; };
+		87732EE2C18A948F527E6F59BFA76CFE /* Pods-AKSimpleColorPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKSimpleColorPicker_Example.modulemap"; sourceTree = "<group>"; };
+		87D400FA3F1C5CCFD02234EB7E0E8D56 /* AKRoughColorPickerShader.fsh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKRoughColorPickerShader.fsh.h; path = AKSimpleColorPicker/Classes/AKRoughColorPickerShader.fsh.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97026A8612CA64E1FB113CA3A949183E /* Pods-AKSimpleColorPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKSimpleColorPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		9C24DE5C65DFC52596CDD9E5119D6443 /* AKRoughColorPickerShader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKRoughColorPickerShader.h; path = AKSimpleColorPicker/Classes/AKRoughColorPickerShader.h; sourceTree = "<group>"; };
+		9D47A81AC8EB13A8810914A49235CCDF /* AKPreciseColorPickerShader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPreciseColorPickerShader.h; path = AKSimpleColorPicker/Classes/AKPreciseColorPickerShader.h; sourceTree = "<group>"; };
+		AA05366C0F4B9FF3B02463C771CA6E52 /* AKSimpleColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKSimpleColorPicker-dummy.m"; sourceTree = "<group>"; };
+		ACC4F9A4AA66B308A8729870777A1F29 /* AKSimpleColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKSimpleColorPicker.xcconfig; sourceTree = "<group>"; };
+		B116D7848119DC04924060EC5D7D9B5F /* AKRoughColorPickerShader.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = AKRoughColorPickerShader.fsh; path = AKSimpleColorPicker/Classes/AKRoughColorPickerShader.fsh; sourceTree = "<group>"; };
+		B53C1E5865B44240AF9064BD582C70C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68728C811AEA30738B834EFDCC85200 /* AKPreciseVertexShader.vsh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPreciseVertexShader.vsh.h; path = AKSimpleColorPicker/Classes/AKPreciseVertexShader.vsh.h; sourceTree = "<group>"; };
+		B9A39B3F821593E7797D73CF8212F404 /* Pods-AKSimpleColorPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKSimpleColorPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		BCFA94AF0C2EF6576B0E6EAC7329C2F0 /* AKRoughVertexShader.vsh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKRoughVertexShader.vsh.h; path = AKSimpleColorPicker/Classes/AKRoughVertexShader.vsh.h; sourceTree = "<group>"; };
+		C27B009178772F82A44B2AD9DA1FF980 /* Pods-AKSimpleColorPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKSimpleColorPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C55C6F3DDD7FB16111E175D939A27B84 /* AKColorPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKColorPickerViewController.h; path = AKSimpleColorPicker/Classes/AKColorPickerViewController.h; sourceTree = "<group>"; };
+		CB30FBEC94E45EA010BC4E665E11D6B6 /* Pods-AKSimpleColorPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKSimpleColorPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D07D6A990A2398387F1A3A55B74F7AFE /* AKSimpleColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKSimpleColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		DAE75E0BEDA575F6CCE7CD5900E70E7C /* AKPreciseColorPickerShader.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = AKPreciseColorPickerShader.fsh; path = AKSimpleColorPicker/Classes/AKPreciseColorPickerShader.fsh; sourceTree = "<group>"; };
+		E39B4BB9022DDE096502B5A201859EC5 /* Pods_AKSimpleColorPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AKSimpleColorPicker_Example.framework; path = "Pods-AKSimpleColorPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6930F8F534F409ACECAD510046B2626 /* AKPreciseColorViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKPreciseColorViewController.m; path = AKSimpleColorPicker/Classes/AKPreciseColorViewController.m; sourceTree = "<group>"; };
+		EE6F0B9DF74F57661DF4BA550680D5F5 /* Pods-AKSimpleColorPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKSimpleColorPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F243F60859EEFAAAA3314068231E9A8A /* AKVertexShader.vsh */ = {isa = PBXFileReference; includeInIndex = 1; name = AKVertexShader.vsh; path = AKSimpleColorPicker/Classes/AKVertexShader.vsh; sourceTree = "<group>"; };
+		F359A3DFC961838BBF4FB2561AF2FECE /* AKSimpleColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AKSimpleColorPicker.framework; path = AKSimpleColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B9A26AB606B57666848D04993EE3B1 /* Pods-AKSimpleColorPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKSimpleColorPicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		F4E422049DD2CAA8D844295F2E3E6ECA /* Pods_AKSimpleColorPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AKSimpleColorPicker_Tests.framework; path = "Pods-AKSimpleColorPicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68900359ACDB49ADC5DCCBC5E763368 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A826C6FF5CFF0CC5F52F8BBE11EEEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FB7A2FC1F099BFAD87C385D6FED7736D /* Pods-AKSimpleColorPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKSimpleColorPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B081DE9E98C4D0CBDACBC1E445B23135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A7A6364F48B038F5B58C0A7F93A9B9 /* Foundation.framework in Frameworks */,
+				8F4C3B8A7EDD7F53BEAA8C1B96A86C8B /* GLKit.framework in Frameworks */,
+				8F64B34C37809DC968BE6C37F7B77495 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB6EF63F49533F13175C830CF205E67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC483CBB98DC04079110CAC847CF6F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E168CCF1285278A2BE23E69DD19B3D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E579B92551FF9520C6F0302D81FBD0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37836529BDA180129FBF0E323354697C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		166F703AFF8E0DA51693ED361DE0D65E /* AKSimpleColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				C55C6F3DDD7FB16111E175D939A27B84 /* AKColorPickerViewController.h */,
+				683B065D034A59C1A87C5255AEE93DDA /* AKColorPickerViewController.m */,
+				DAE75E0BEDA575F6CCE7CD5900E70E7C /* AKPreciseColorPickerShader.fsh */,
+				9D47A81AC8EB13A8810914A49235CCDF /* AKPreciseColorPickerShader.h */,
+				865E56BE39685AC69FC481373486D16F /* AKPreciseColorPickerShader.m */,
+				6E8B9BC5F8B4FB97971E310A724728A3 /* AKPreciseColorPickerShader.fsh.h */,
+				07D92446F9C5936E7C370154402A737C /* AKPreciseColorViewController.h */,
+				E6930F8F534F409ACECAD510046B2626 /* AKPreciseColorViewController.m */,
+				B68728C811AEA30738B834EFDCC85200 /* AKPreciseVertexShader.vsh.h */,
+				B116D7848119DC04924060EC5D7D9B5F /* AKRoughColorPickerShader.fsh */,
+				9C24DE5C65DFC52596CDD9E5119D6443 /* AKRoughColorPickerShader.h */,
+				25F16A45F8B3110C2E4771852413E13F /* AKRoughColorPickerShader.m */,
+				87D400FA3F1C5CCFD02234EB7E0E8D56 /* AKRoughColorPickerShader.fsh.h */,
+				4F149351B43BA30E774606F5AFA6598A /* AKRoughColorViewController.h */,
+				61F07DC97C5CB0DD884966C19D8C7D83 /* AKRoughColorViewController.m */,
+				BCFA94AF0C2EF6576B0E6EAC7329C2F0 /* AKRoughVertexShader.vsh.h */,
+				785C7727FAE7A0024B5ED076092F8A6C /* AKSimpleColorPicker.h */,
+				F243F60859EEFAAAA3314068231E9A8A /* AKVertexShader.vsh */,
+				40C18ECC26B4DDC66B5562F2C06483BD /* Pod */,
+				E8A110B2D0EBDC84A25DD48C75A4E899 /* Support Files */,
+			);
+			name = AKSimpleColorPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		192EB156D25FA488D767341390EC6168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F359A3DFC961838BBF4FB2561AF2FECE /* AKSimpleColorPicker.framework */,
+				E39B4BB9022DDE096502B5A201859EC5 /* Pods_AKSimpleColorPicker_Example.framework */,
+				F4E422049DD2CAA8D844295F2E3E6ECA /* Pods_AKSimpleColorPicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37836529BDA180129FBF0E323354697C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				30BF560CA6C07ADD0ABB1F227A0A1979 /* Foundation.framework */,
+				554740CE379E5E03F7293F2B613F1F09 /* GLKit.framework */,
+				0F75B566DEC1651054BEE28793F00969 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		40C18ECC26B4DDC66B5562F2C06483BD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				00F739440C4A6C1BC77A1D979527599E /* AKSimpleColorPicker.podspec */,
+				3F402F38B4043D1050E17359046008B8 /* LICENSE */,
+				F9A826C6FF5CFF0CC5F52F8BBE11EEEE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4D2731C51E9E123DE9B1A74550DF9130 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				166F703AFF8E0DA51693ED361DE0D65E /* AKSimpleColorPicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4D2731C51E9E123DE9B1A74550DF9130 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				192EB156D25FA488D767341390EC6168 /* Products */,
+				E58BE2826100D3E7F43C77FA19042851 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		96B935ACE4791E492D8B9B4333A0BA5C /* Pods-AKSimpleColorPicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B53C1E5865B44240AF9064BD582C70C0 /* Info.plist */,
+				775E3650E2C68ABD7CC5FC7EDD34CB1B /* Pods-AKSimpleColorPicker_Tests.modulemap */,
+				4E1ADC523FC1E809E51D8858C3E034EF /* Pods-AKSimpleColorPicker_Tests-acknowledgements.markdown */,
+				38C9707AE7BDEBBB3954B46E38FF4F6A /* Pods-AKSimpleColorPicker_Tests-acknowledgements.plist */,
+				97026A8612CA64E1FB113CA3A949183E /* Pods-AKSimpleColorPicker_Tests-dummy.m */,
+				FB7A2FC1F099BFAD87C385D6FED7736D /* Pods-AKSimpleColorPicker_Tests-frameworks.sh */,
+				F4B9A26AB606B57666848D04993EE3B1 /* Pods-AKSimpleColorPicker_Tests-resources.sh */,
+				0105BEC66D590F12FE3B75CC6510F6FD /* Pods-AKSimpleColorPicker_Tests-umbrella.h */,
+				C27B009178772F82A44B2AD9DA1FF980 /* Pods-AKSimpleColorPicker_Tests.debug.xcconfig */,
+				406253C27F31903AC69F9EF1AE43BF96 /* Pods-AKSimpleColorPicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-AKSimpleColorPicker_Tests";
+			path = "Target Support Files/Pods-AKSimpleColorPicker_Tests";
+			sourceTree = "<group>";
+		};
+		E58BE2826100D3E7F43C77FA19042851 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E60CEEEB5391539C010B3AC34B93570F /* Pods-AKSimpleColorPicker_Example */,
+				96B935ACE4791E492D8B9B4333A0BA5C /* Pods-AKSimpleColorPicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E60CEEEB5391539C010B3AC34B93570F /* Pods-AKSimpleColorPicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				854B5BBD0F396DC663380862F47C03BF /* Info.plist */,
+				87732EE2C18A948F527E6F59BFA76CFE /* Pods-AKSimpleColorPicker_Example.modulemap */,
+				1679F77B6FA243249D93CA8BD0576902 /* Pods-AKSimpleColorPicker_Example-acknowledgements.markdown */,
+				216C8141C1378C6BE3354B3196D0C2DD /* Pods-AKSimpleColorPicker_Example-acknowledgements.plist */,
+				B9A39B3F821593E7797D73CF8212F404 /* Pods-AKSimpleColorPicker_Example-dummy.m */,
+				83DF0246FFB86F822D51E8912DC3F302 /* Pods-AKSimpleColorPicker_Example-frameworks.sh */,
+				2409883D4C79980CF79AC2B2BAC22655 /* Pods-AKSimpleColorPicker_Example-resources.sh */,
+				4C74E2572D5273BB3EACC6A762C259DB /* Pods-AKSimpleColorPicker_Example-umbrella.h */,
+				EE6F0B9DF74F57661DF4BA550680D5F5 /* Pods-AKSimpleColorPicker_Example.debug.xcconfig */,
+				CB30FBEC94E45EA010BC4E665E11D6B6 /* Pods-AKSimpleColorPicker_Example.release.xcconfig */,
+			);
+			name = "Pods-AKSimpleColorPicker_Example";
+			path = "Target Support Files/Pods-AKSimpleColorPicker_Example";
+			sourceTree = "<group>";
+		};
+		E8A110B2D0EBDC84A25DD48C75A4E899 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E0E3609249C44B0CC2EC49A21712EF1 /* AKSimpleColorPicker.modulemap */,
+				ACC4F9A4AA66B308A8729870777A1F29 /* AKSimpleColorPicker.xcconfig */,
+				AA05366C0F4B9FF3B02463C771CA6E52 /* AKSimpleColorPicker-dummy.m */,
+				77C32D11CB9AA3ED803300F4505DF1EA /* AKSimpleColorPicker-prefix.pch */,
+				D07D6A990A2398387F1A3A55B74F7AFE /* AKSimpleColorPicker-umbrella.h */,
+				F68900359ACDB49ADC5DCCBC5E763368 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AKSimpleColorPicker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26D95545879657124A020A7D6637A9C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6330B2DB6D154E7A4005EB3F5ED354F5 /* AKColorPickerViewController.h in Headers */,
+				45578C147352F3557ED499301ADEF2C3 /* AKPreciseColorPickerShader.fsh.h in Headers */,
+				1F17F0E55746F7D5807BA64A2AC1FD6E /* AKPreciseColorPickerShader.h in Headers */,
+				B60144A250E5EB8D2C61BE7092D7B9CA /* AKPreciseColorViewController.h in Headers */,
+				A1800953C8B7EFD333FB41B8986B5C18 /* AKPreciseVertexShader.vsh.h in Headers */,
+				1CBF96B1DE0327BED3BF6C040F6A69E8 /* AKRoughColorPickerShader.fsh.h in Headers */,
+				1313D928C7026F212785E33867208890 /* AKRoughColorPickerShader.h in Headers */,
+				7D988C8900CFD3DCA5AFA96D899C9355 /* AKRoughColorViewController.h in Headers */,
+				CAA7E7483B071977151392954DB19393 /* AKRoughVertexShader.vsh.h in Headers */,
+				E8FD023BC3115AF0E2C33516543CE78F /* AKSimpleColorPicker-umbrella.h in Headers */,
+				F1DE194D0B121196A4BE9DCC421F810F /* AKSimpleColorPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D5CD2D6F144B85817EBF4701BAA6C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD69E32B3D4B94CAB0E8EF87292207CF /* Pods-AKSimpleColorPicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF17A45071DFEEA4F266A9AA92CB480 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98462860768E107D385BF1F079B9897A /* Pods-AKSimpleColorPicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		118658D9D28D3052FFB225377E1C825B /* Pods-AKSimpleColorPicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E626C5147BBA31BE9F23B73AE9850EBA /* Build configuration list for PBXNativeTarget "Pods-AKSimpleColorPicker_Example" */;
+			buildPhases = (
+				CAF17A45071DFEEA4F266A9AA92CB480 /* Headers */,
+				8DAD95BA111CBE521B3900BDDA4946CE /* Sources */,
+				BBB6EF63F49533F13175C830CF205E67 /* Frameworks */,
+				B8B5568D0DF20211367E9CF2DE66E105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				547BF803F8C8C84D5502B417837557EB /* PBXTargetDependency */,
+			);
+			name = "Pods-AKSimpleColorPicker_Example";
+			productName = "Pods-AKSimpleColorPicker_Example";
+			productReference = E39B4BB9022DDE096502B5A201859EC5 /* Pods_AKSimpleColorPicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2053DA43767E99BF443F2EDF83B8A737 /* Pods-AKSimpleColorPicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6952A8D47CBA7B3A4729F6136D26D9C5 /* Build configuration list for PBXNativeTarget "Pods-AKSimpleColorPicker_Tests" */;
+			buildPhases = (
+				C5D5CD2D6F144B85817EBF4701BAA6C3 /* Headers */,
+				C9D7FBE9BE2856B3196C80BE86EB444B /* Sources */,
+				E168CCF1285278A2BE23E69DD19B3D39 /* Frameworks */,
+				FB231D54EDB19B66103FA8CD85648B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2DF3DE1122B72C8A4BE08D224053D5A /* PBXTargetDependency */,
+			);
+			name = "Pods-AKSimpleColorPicker_Tests";
+			productName = "Pods-AKSimpleColorPicker_Tests";
+			productReference = F4E422049DD2CAA8D844295F2E3E6ECA /* Pods_AKSimpleColorPicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FF485F124FF1FD3E2A98E61C455F362 /* AKSimpleColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BD548E0655AAEACFB7FCD10E89E333 /* Build configuration list for PBXNativeTarget "AKSimpleColorPicker" */;
+			buildPhases = (
+				26D95545879657124A020A7D6637A9C5 /* Headers */,
+				0A44E4DED42D5131E34BE249236A1ABB /* Sources */,
+				B081DE9E98C4D0CBDACBC1E445B23135 /* Frameworks */,
+				E1329690E7D5DD462219523D1F8866A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKSimpleColorPicker;
+			productName = AKSimpleColorPicker;
+			productReference = F359A3DFC961838BBF4FB2561AF2FECE /* AKSimpleColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 192EB156D25FA488D767341390EC6168 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FF485F124FF1FD3E2A98E61C455F362 /* AKSimpleColorPicker */,
+				118658D9D28D3052FFB225377E1C825B /* Pods-AKSimpleColorPicker_Example */,
+				2053DA43767E99BF443F2EDF83B8A737 /* Pods-AKSimpleColorPicker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8B5568D0DF20211367E9CF2DE66E105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1329690E7D5DD462219523D1F8866A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB231D54EDB19B66103FA8CD85648B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A44E4DED42D5131E34BE249236A1ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F584121C5AF30CBE8A68C09AA1551777 /* AKColorPickerViewController.m in Sources */,
+				CAC688C37D8D8261BBB5F2CBE90870A0 /* AKPreciseColorPickerShader.fsh in Sources */,
+				4F04653A6A21B508A771D08836280A22 /* AKPreciseColorPickerShader.m in Sources */,
+				2339BE573411DBE30C4DDEA4077358F5 /* AKPreciseColorViewController.m in Sources */,
+				D62E454AE5C9BF9790BD189D40768814 /* AKRoughColorPickerShader.fsh in Sources */,
+				853441865FE8BB043F932492E322DE88 /* AKRoughColorPickerShader.m in Sources */,
+				BC23A16413DEF6A7A573EE371B18C6D0 /* AKRoughColorViewController.m in Sources */,
+				ED7E6BBA4C9639BFB0F20671A5F18060 /* AKSimpleColorPicker-dummy.m in Sources */,
+				43C243B7005F5784C1E62FF8EDC32942 /* AKVertexShader.vsh in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DAD95BA111CBE521B3900BDDA4946CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA1046AB4579D1FCDCB94D2ED48E500 /* Pods-AKSimpleColorPicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D7FBE9BE2856B3196C80BE86EB444B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				458E17F0ABD2513F5301CD42FAE44DF7 /* Pods-AKSimpleColorPicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		547BF803F8C8C84D5502B417837557EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AKSimpleColorPicker;
+			target = 9FF485F124FF1FD3E2A98E61C455F362 /* AKSimpleColorPicker */;
+			targetProxy = 60F0A0E3C55806FBE434E7F60AEF8B09 /* PBXContainerItemProxy */;
+		};
+		A2DF3DE1122B72C8A4BE08D224053D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AKSimpleColorPicker_Example";
+			target = 118658D9D28D3052FFB225377E1C825B /* Pods-AKSimpleColorPicker_Example */;
+			targetProxy = 25F962B4D298C082325835AAEE2CF10B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1975DB116ECE0ECB706B0A846A417B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 406253C27F31903AC69F9EF1AE43BF96 /* Pods-AKSimpleColorPicker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AKSimpleColorPicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKSimpleColorPicker_Tests/Pods-AKSimpleColorPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		95DFE1AC763574D282DD5200DAD16815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC4F9A4AA66B308A8729870777A1F29 /* AKSimpleColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AKSimpleColorPicker/AKSimpleColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKSimpleColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AKSimpleColorPicker/AKSimpleColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = AKSimpleColorPicker;
+				PRODUCT_NAME = AKSimpleColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A605643BC93168C64CF4E060DA2BAB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27B009178772F82A44B2AD9DA1FF980 /* Pods-AKSimpleColorPicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AKSimpleColorPicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKSimpleColorPicker_Tests/Pods-AKSimpleColorPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EE8B3EA2EF04A07CBE33E293A5BDB66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB30FBEC94E45EA010BC4E665E11D6B6 /* Pods-AKSimpleColorPicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AKSimpleColorPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKSimpleColorPicker_Example/Pods-AKSimpleColorPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F111A552836399047EF83D40235E87BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6F0B9DF74F57661DF4BA550680D5F5 /* Pods-AKSimpleColorPicker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AKSimpleColorPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKSimpleColorPicker_Example/Pods-AKSimpleColorPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3E9E2EA0779574BE255DE14DA4139A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC4F9A4AA66B308A8729870777A1F29 /* AKSimpleColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AKSimpleColorPicker/AKSimpleColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKSimpleColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AKSimpleColorPicker/AKSimpleColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = AKSimpleColorPicker;
+				PRODUCT_NAME = AKSimpleColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01BD548E0655AAEACFB7FCD10E89E333 /* Build configuration list for PBXNativeTarget "AKSimpleColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DFE1AC763574D282DD5200DAD16815 /* Debug */,
+				F3E9E2EA0779574BE255DE14DA4139A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6952A8D47CBA7B3A4729F6136D26D9C5 /* Build configuration list for PBXNativeTarget "Pods-AKSimpleColorPicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A605643BC93168C64CF4E060DA2BAB36 /* Debug */,
+				1975DB116ECE0ECB706B0A846A417B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E626C5147BBA31BE9F23B73AE9850EBA /* Build configuration list for PBXNativeTarget "Pods-AKSimpleColorPicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F111A552836399047EF83D40235E87BD /* Debug */,
+				EE8B3EA2EF04A07CBE33E293A5BDB66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
